@@ -20,10 +20,11 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{044DC8DA-581E-4838-9A53-E4D6F48C90F0}</ProjectGuid>
+    <ProjectGuid>{1BF0DD1F-6983-45F3-941A-A9D1D90BFF7B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>BacktrackingStringPermutations</RootNamespace>
+    <RootNamespace>RemoveOddsFromLinkedList</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17063.0</WindowsTargetPlatformVersion>
+    <ProjectName>RemoveOddsFromLinkedList</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -151,7 +152,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BacktrackingStringPermutations.cpp" />
+    <ClCompile Include="RemoveOddsFromLinkedList.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
